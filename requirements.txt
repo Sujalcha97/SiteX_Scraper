@@ -1,0 +1,2 @@
+scrapy
+scrapy-zyte-api>=0.20.0
