@@ -40,7 +40,7 @@ DOWNLOAD_HANDLERS = {
 DOWNLOADER_MIDDLEWARES = {
     "scrapy_zyte_api.ScrapyZyteAPIDownloaderMiddleware": 1000,
 }
-REQUEST_FINGERPRINTER_CLASS = "scrapy_zyte_api.ScrapyZyteAPIRequestFingerprinter"
+# REQUEST_FINGERPRINTER_CLASS = "scrapy_zyte_api.ScrapyZyteAPIRequestFingerprinter"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
 
