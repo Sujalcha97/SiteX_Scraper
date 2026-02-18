@@ -12,12 +12,12 @@ BOT_NAME = "SiteXScraper"
 SPIDER_MODULES = ["SiteXScraper.spiders"]
 NEWSPIDER_MODULE = "SiteXScraper.spiders"
 
-# ADDONS = {
-#     "scrapy_zyte_api.Addon": 500,
-# }
+ADDONS = {
+    "scrapy_zyte_api.Addon": 500,
+}
 
 # Enter your Zyte API key here or set it as an environment variable ZYTE_API_KEY
-ZYTE_API_KEY = "121e997e0bdf461386aa208ab61480c4"
+ZYTE_API_KEY = "6bd9f910576c451bad21f77b505e5711"
 
 
 
